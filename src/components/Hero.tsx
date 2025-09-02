@@ -16,11 +16,11 @@ export function Hero() {
       {/* Content */}
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
         <h1 className="text-6xl md:text-8xl font-black mb-6 cyberpunk-glow bg-gradient-psychedelic bg-clip-text text-transparent">
-          finatiq
+          annata
         </h1>
         
         <p className="text-xl md:text-2xl mb-4 text-neon-green cyberpunk-glow">
-          STREETWEAR CLOTHING
+          STREET WEAR
         </p>
         
         <p className="text-lg mb-8 text-foreground/80 max-w-2xl mx-auto">

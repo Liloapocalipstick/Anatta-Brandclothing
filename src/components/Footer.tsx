@@ -6,10 +6,10 @@ export function Footer() {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-black mb-4 cyberpunk-glow bg-gradient-psychedelic bg-clip-text text-transparent">
-            finatiq
+            annata
           </h2>
           <p className="text-neon-green cyberpunk-glow text-lg mb-6">
-            STREETWEAR CLOTHING
+            STREET WEAR
           </p>
           <p className="text-muted-foreground max-w-2xl mx-auto">
             Join the cosmic revolution. Subscribe to stay connected with the universe 
@@ -31,7 +31,7 @@ export function Footer() {
         </div>
         
         <div className="text-center text-sm text-muted-foreground">
-          <p>© 2024 finatiq. All rights reserved. | Cosmic Serenity by Clancy Pink Punk</p>
+          <p>© 2024 annata street wear. All rights reserved. | Cosmic Serenity by Clancy Pink Punk</p>
         </div>
         
         {/* Decorative Elements */}

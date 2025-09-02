@@ -28,7 +28,7 @@ export function Features() {
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-black mb-4 cyberpunk-glow">
             <span className="bg-gradient-psychedelic bg-clip-text text-transparent">
-              Why Choose finatiq?
+              Why Choose annata?
             </span>
           </h2>
           <p className="text-muted-foreground text-lg">
