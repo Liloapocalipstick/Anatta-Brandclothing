@@ -61,7 +61,23 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				/* Finatiq Neon Colors */
+				'neon-pink': 'hsl(var(--neon-pink))',
+				'neon-green': 'hsl(var(--neon-green))',
+				'neon-blue': 'hsl(var(--neon-blue))',
+				'neon-purple': 'hsl(var(--neon-purple))',
+				'cyber-orange': 'hsl(var(--cyber-orange))'
+			},
+			backgroundImage: {
+				'gradient-psychedelic': 'var(--gradient-psychedelic)',
+				'gradient-cosmic': 'var(--gradient-cosmic)',
+				'gradient-bg': 'var(--gradient-bg)'
+			},
+			boxShadow: {
+				'glow-pink': 'var(--glow-pink)',
+				'glow-green': 'var(--glow-green)',
+				'glow-blue': 'var(--glow-blue)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
