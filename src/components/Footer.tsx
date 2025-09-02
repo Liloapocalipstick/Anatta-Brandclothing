@@ -34,9 +34,9 @@ export function Footer() {
           <p>© 2024 annata street wear. All rights reserved. | Cosmic Serenity by Clancy Pink Punk</p>
         </div>
         
-        {/* Decorative Elements */}
-        <div className="absolute bottom-10 left-10 w-2 h-2 bg-neon-pink rounded-full animate-pulse" />
-        <div className="absolute bottom-20 right-20 w-3 h-3 bg-neon-green rounded-full animate-pulse delay-500" />
+        {/* Decorative Elements - NO ANIMATIONS */}
+        <div className="absolute bottom-10 left-10 w-2 h-2 bg-neon-pink rounded-full" />
+        <div className="absolute bottom-20 right-20 w-3 h-3 bg-neon-green rounded-full" />
       </div>
     </footer>
   );

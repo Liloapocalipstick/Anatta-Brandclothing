@@ -51,8 +51,16 @@ All colors MUST be HSL.
     --gradient-cosmic: linear-gradient(45deg, hsl(var(--neon-green)), hsl(var(--cyber-orange)), hsl(var(--neon-pink)));
     --gradient-bg: radial-gradient(circle at 50% 50%, hsl(240 20% 15%), hsl(240 15% 8%));
     
-    /* Animations */
-    --transition-glow: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    /* Holographic Effects */
+    --gradient-holographic: linear-gradient(45deg, 
+      hsl(var(--neon-pink) / 0.8), 
+      hsl(var(--neon-green) / 0.8), 
+      hsl(var(--neon-blue) / 0.8), 
+      hsl(var(--neon-purple) / 0.8), 
+      hsl(var(--cyber-orange) / 0.8));
+    --gradient-glitter: radial-gradient(circle at 20% 80%, hsl(0 0% 100% / 0.9) 0%, transparent 50%),
+                       radial-gradient(circle at 80% 20%, hsl(0 0% 100% / 0.9) 0%, transparent 50%),
+                       radial-gradient(circle at 40% 40%, hsl(0 0% 100% / 0.7) 0%, transparent 50%);
     
     /* Shadows */
     --glow-pink: 0 0 20px hsl(var(--neon-pink) / 0.5);
@@ -121,5 +129,27 @@ All colors MUST be HSL.
     background: linear-gradient(var(--gradient-psychedelic)) border-box;
     -webkit-background-clip: padding-box, border-box;
     background-clip: padding-box, border-box;
+  }
+
+  .holographic {
+    background: var(--gradient-holographic);
+    background-size: 200% 200%;
+  }
+  
+  .glitter-effect {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .glitter-effect::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--gradient-glitter);
+    pointer-events: none;
+    opacity: 0.6;
   }
 }
