@@ -32,10 +32,6 @@ export function Hero() {
         </div>
       </div>
       
-      {/* Floating Elements - NO ANIMATIONS */}
-      <div className="absolute top-20 left-20 w-4 h-4 bg-neon-pink rounded-full" />
-      <div className="absolute top-40 right-32 w-6 h-6 bg-neon-green rounded-full" />
-      <div className="absolute bottom-32 left-16 w-3 h-3 bg-neon-blue rounded-full" />
     </section>
   );
 }
