@@ -12,6 +12,13 @@ export function Gallery() {
     <section className="py-20 px-4">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12">
+          <div className="flex justify-center mb-6">
+            <img 
+              src="/lovable-uploads/5acb445e-04cc-4fd5-bab8-b0cdeaf7804c.png" 
+              alt="annata street wear logo" 
+              className="w-32 h-32 object-contain"
+            />
+          </div>
           <h2 className="text-4xl md:text-5xl font-black mb-4 text-neon-green">
             Cosmic Serenity
           </h2>
