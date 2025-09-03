@@ -1,7 +1,8 @@
 import { Button } from "@/components/ui/button";
 export function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-purple-600 to-purple-900">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden" 
+             style={{background: 'linear-gradient(135deg, #1b003a 0%, #230443 25%, #2b064d 50%, #340856 75%, #3d0b60 100%)'}}>
       {/* Content */}
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
         <div className="flex justify-center mb-8">
