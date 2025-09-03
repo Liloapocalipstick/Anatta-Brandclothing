@@ -22,7 +22,7 @@ export function Hero() {
           and cyberpunk aesthetics in every piece.
         </p>
         
-        <div className="flex flex-col sm:flex-row gap-4 justify-center">
+        <div className="flex flex-col sm:flex-row gap-8 justify-center">
           <Button variant="neon" size="xl">
             Shop Collection
           </Button>
