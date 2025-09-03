@@ -16,7 +16,7 @@ export function Gallery() {
             <img 
               src="/lovable-uploads/5acb445e-04cc-4fd5-bab8-b0cdeaf7804c.png" 
               alt="annata street wear logo" 
-              className="w-32 h-32 object-contain"
+              className="w-48 h-48 md:w-64 md:h-64 object-contain"
             />
           </div>
           <h2 className="text-4xl md:text-5xl font-black mb-4 text-neon-green">
