@@ -15,11 +15,15 @@ export function Hero() {
       
       {/* Content */}
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
-        <h1 className="text-6xl md:text-8xl font-black mb-6 cyberpunk-glow bg-gradient-psychedelic bg-clip-text text-transparent">
-          annata
-        </h1>
+        <div className="flex justify-center mb-8">
+          <img 
+            src="/lovable-uploads/5acb445e-04cc-4fd5-bab8-b0cdeaf7804c.png" 
+            alt="annata street wear logo" 
+            className="w-64 h-64 md:w-80 md:h-80 object-contain"
+          />
+        </div>
         
-        <p className="text-xl md:text-2xl mb-4 text-neon-green cyberpunk-glow">
+        <p className="text-xl md:text-2xl mb-4 text-neon-green">
           STREET WEAR
         </p>
         
