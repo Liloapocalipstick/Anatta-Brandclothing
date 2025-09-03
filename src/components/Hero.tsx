@@ -1,25 +1,14 @@
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/finatiq-hero.jpg";
-
 export function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Background Image */}
-      <div 
-        className="absolute inset-0 bg-cover bg-center opacity-30"
-        style={{ backgroundImage: `url(${heroImage})` }}
-      />
-      
-      {/* Cyberpunk Grid Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-br from-neon-pink/20 via-transparent to-neon-blue/20" />
-      
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-purple-600 to-purple-900">
       {/* Content */}
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
         <div className="flex justify-center mb-8">
           <img 
             src="/lovable-uploads/5acb445e-04cc-4fd5-bab8-b0cdeaf7804c.png" 
             alt="annata street wear logo" 
-            className="w-64 h-64 md:w-80 md:h-80 object-contain"
+            className="w-96 h-96 md:w-[500px] md:h-[500px] object-contain"
           />
         </div>
         
