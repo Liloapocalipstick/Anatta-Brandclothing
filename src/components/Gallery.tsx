@@ -9,7 +9,8 @@ export function Gallery() {
   ];
 
   return (
-    <section className="py-20 px-4">
+    <section className="py-20 px-4" 
+             style={{background: 'linear-gradient(180deg, #0f0f23 0%, #1a0033 50%, #2d1b69 100%)'}}>
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12">
           <div className="flex justify-center mb-6">

@@ -2,7 +2,8 @@ import { Button } from "@/components/ui/button";
 
 export function Footer() {
   return (
-    <footer className="py-16 px-4 border-t border-border/30">
+    <footer className="py-16 px-4 border-t border-border/30 relative" 
+            style={{background: 'linear-gradient(180deg, #0f0f23 0%, #1a0033 50%, #2d1b69 100%)'}}>
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-black mb-4 cyberpunk-glow bg-gradient-psychedelic bg-clip-text text-transparent">

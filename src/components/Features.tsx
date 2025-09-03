@@ -23,7 +23,8 @@ const features = [
 
 export function Features() {
   return (
-    <section className="py-20 px-4 bg-card/20">
+    <section className="py-20 px-4" 
+             style={{background: 'linear-gradient(180deg, #0f0f23 0%, #1a0033 50%, #2d1b69 100%)'}}>
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-black mb-4 cyberpunk-glow">
