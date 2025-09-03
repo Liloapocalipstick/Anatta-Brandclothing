@@ -9,15 +9,15 @@ export function Hero() {
           <img 
             src="/lovable-uploads/5acb445e-04cc-4fd5-bab8-b0cdeaf7804c.png" 
             alt="annata street wear logo" 
-            className="w-96 h-96 md:w-[500px] md:h-[500px] object-contain"
+            className="w-[500px] h-[500px] md:w-[700px] md:h-[700px] object-contain"
           />
         </div>
         
-        <p className="text-xl md:text-2xl mb-4 text-neon-green">
+        <p className="text-3xl md:text-5xl mb-8 text-neon-green font-bold">
           STREET WEAR
         </p>
         
-        <p className="text-lg mb-8 text-foreground/80 max-w-2xl mx-auto">
+        <p className="text-2xl md:text-3xl mb-8 text-foreground/80 max-w-2xl mx-auto">
           Cosmic Serenity meets urban rebellion. Experience the fusion of spiritual energy 
           and cyberpunk aesthetics in every piece.
         </p>
