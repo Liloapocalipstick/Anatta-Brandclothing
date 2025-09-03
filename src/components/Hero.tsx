@@ -5,19 +5,19 @@ export function Hero() {
              style={{background: 'linear-gradient(135deg, #1b003a 0%, #230443 25%, #2b064d 50%, #340856 75%, #3d0b60 100%)'}}>
       {/* Content */}
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
-        <div className="flex justify-center mb-8">
+        <div className="flex justify-center mb-12">
           <img 
             src="/lovable-uploads/5acb445e-04cc-4fd5-bab8-b0cdeaf7804c.png" 
             alt="annata street wear logo" 
-            className="w-[500px] h-[500px] md:w-[700px] md:h-[700px] object-contain"
+            className="w-[600px] h-[600px] md:w-[900px] md:h-[900px] object-contain"
           />
         </div>
         
-        <p className="text-3xl md:text-5xl mb-8 text-neon-green font-bold">
+        <p className="text-4xl md:text-7xl mb-12 text-neon-green font-bold">
           STREET WEAR
         </p>
         
-        <p className="text-2xl md:text-3xl mb-8 text-foreground/80 max-w-2xl mx-auto">
+        <p className="text-3xl md:text-4xl mb-12 text-foreground/80 max-w-4xl mx-auto font-medium">
           Cosmic Serenity meets urban rebellion. Experience the fusion of spiritual energy 
           and cyberpunk aesthetics in every piece.
         </p>
