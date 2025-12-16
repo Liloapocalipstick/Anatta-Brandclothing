@@ -4,8 +4,7 @@ export function Gallery() {
     { name: "Chill Pill & Futuristic", image: "/lovable-uploads/22d6b1d6-55a0-4efd-9f04-d753ba846194.png" },
     { name: "So Fresh & Style", image: "/lovable-uploads/1c12a520-adfc-4cee-aa14-4d5bd9ef04c9.png" },
     { name: "Cosmic Serenity Collection", image: "/lovable-uploads/8660c36b-d066-4c69-bdfe-6bf5445ee25b.png" },
-    { name: "Cosmic Accessories", image: "/lovable-uploads/722a2717-8070-42d3-9c49-6fa577483bee.png" },
-    { name: "Catálogo - The Three Jewels", image: "/lovable-uploads/cbd3403e-94a5-4c9e-9467-1172c201e43c.png" }
+    { name: "Cosmic Accessories", image: "/lovable-uploads/722a2717-8070-42d3-9c49-6fa577483bee.png" }
   ];
 
   return (
