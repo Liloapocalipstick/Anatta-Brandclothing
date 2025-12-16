@@ -13,9 +13,17 @@ export function Hero() {
           />
         </div>
         
-        <p className="text-4xl md:text-7xl mb-12 text-neon-green font-bold">
-          STREET WEAR
-        </p>
+        <div className="flex flex-col gap-2 mb-12">
+          <p className="text-4xl md:text-7xl text-neon-green font-bold">
+            STREET WEAR
+          </p>
+          <p className="text-3xl md:text-5xl text-neon-pink font-bold">
+            YOGA CLOTHING
+          </p>
+          <p className="text-2xl md:text-4xl text-neon-cyan font-bold">
+            TOYS DESIGN
+          </p>
+        </div>
         
         <p className="text-3xl md:text-4xl mb-12 text-foreground/80 max-w-4xl mx-auto font-medium">
           Cosmic Serenity meets urban rebellion. Experience the fusion of spiritual energy 
