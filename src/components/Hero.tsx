@@ -7,9 +7,9 @@ export function Hero() {
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
         <div className="flex justify-center mb-12">
           <img 
-            src="/lovable-uploads/5acb445e-04cc-4fd5-bab8-b0cdeaf7804c.png" 
-            alt="annata street wear logo" 
-            className="w-[600px] h-[600px] md:w-[900px] md:h-[900px] object-contain"
+            src="/lovable-uploads/anatta-logo.png" 
+            alt="Anatta by Clancy Pink Punk Yoga Clothing logo" 
+            className="w-[400px] h-[400px] md:w-[600px] md:h-[600px] object-contain"
           />
         </div>
         
